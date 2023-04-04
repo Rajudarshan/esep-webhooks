@@ -15,3 +15,4 @@ C:\Users\rpers\Desktop\Spring23\Enterprise\Event-Driven\EsepWebhook\src\EsepWebh
 C:\Users\rpers\Desktop\Spring23\Enterprise\Event-Driven\EsepWebhook\src\EsepWebhook\obj\Release\net6.0\linux-x64\EsepWebhook.pdb
 C:\Users\rpers\Desktop\Spring23\Enterprise\Event-Driven\EsepWebhook\src\EsepWebhook\obj\Release\net6.0\linux-x64\EsepWebhook.genruntimeconfig.cache
 C:\Users\rpers\Desktop\Spring23\Enterprise\Event-Driven\EsepWebhook\src\EsepWebhook\obj\Release\net6.0\linux-x64\ref\EsepWebhook.dll
+C:\Users\rpers\Desktop\Spring23\Enterprise\Event-Driven\EsepWebhook\src\EsepWebhook\bin\Release\net6.0\linux-x64\Newtonsoft.Json.dll

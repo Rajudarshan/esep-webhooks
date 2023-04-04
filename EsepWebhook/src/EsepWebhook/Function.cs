@@ -16,7 +16,7 @@ public class Function
     /// <param name="input"></param>
     /// <param name="context"></param>
     /// <returns>
-    /// { issue: { html_url: â€œlink to the issue createdâ€ }}
+    /// { issue: { html_url: “link to the issue created” }}
     /// </returns>
     public string FunctionHandler(object input, ILambdaContext context)
     {
