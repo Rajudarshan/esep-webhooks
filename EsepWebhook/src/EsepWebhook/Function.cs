@@ -16,13 +16,13 @@ public class Function
     /// <param name="input"></param>
     /// <param name="context"></param>
     /// <returns>
-    /// { issue: { html_url: ìlink to the issue createdî }}
+    /// { issue: { html_url: ‚Äúlink to the issue created‚Äù }}
     /// </returns>
     public string FunctionHandler(string input, ILambdaContext context)
     {
         dynamic json = JsonConvert.DeserializeObject<dynamic>(input.ToString());
 
-        string payload = $"{{'text':Issue Created: {json.issue.html_url}'}}";
+        string payload = $"{{'text':'Issue Created: {json.issue.html_url}'}}";
 
         var client = new HttpClient();
         var webRequest = new HttpRequestMessage(HttpMethod.Post, Environment.GetEnvironmentVariable("SLACK_URL"))
